@@ -1,4 +1,4 @@
-var Score = 7;
+var Score = 90;
 
 if (Score >=90 && Score <= 100) {
     console.log('A+')
@@ -8,7 +8,7 @@ else if (Score>=80, Score <= 100) {
 
     if( Score <= 89, Score>=70){
         console.log('A-')
-    }
+     }
     else if(Score>=89, Score <= 70){
         console.log('byyy');
     }
@@ -32,11 +32,10 @@ else if (Score>=80, Score <= 100) {
     }
 }
 
-// for loop
-
-
+//  for loop
 // chang .........'let' 
 // nun-chang.......'const'
+
 for (let i = 0; i <=100; i++) {
     console.log(i) ; 
 }
@@ -45,4 +44,26 @@ for (let i = 0; i <=100; i+=2) {
 }
 for (let i = 0; i <=100; i+=3) {
     console.log(i) ; 
+    
 }
+
+// while-Loop
+
+let i = 0;
+while (i<=50) {
+    i+=3;
+    console.log(i)
+}
+
+let j = 0;
+while (j>=50) {
+    j+=3;
+    console.log(j)
+
+}
+
+
+
+
+
+
