@@ -21,13 +21,15 @@
 
 
 
-function avarige(  string , B, E, P, G, S) {
-    const sum = (  B + E + P + G + S);
-    const avr =  sum/5;
-    return avr;
-
+function avarige(  B, E, P, G, S) {
+    const sum = ( B, + E ,+ P, + G, + S);
+    const avr =  sum /5;
+   return avr;
 }
+const fullavariz =avarige(56,87,89,90,45);
 
-const fullavariz =avarige("valo vabay KORO MAMA",56,87,89,90,45);
+console.log( fullavariz);
 
-console.log(fullavariz);
+
+
+
