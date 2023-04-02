@@ -37,6 +37,16 @@ console.log(monitorqulity);
 const monitorqulity2 = computer["keyboard"];
 console.log(monitorqulity2);
 
+computer["monitor"] = 7;
+console.log(computer);
+
+const propertyName1 ="pc_box";
+computer[propertyName1] = 5;
+console.log(computer);
+
+
+
+
 const propertyName = "desk";
 const propertyValu = computer[propertyName];
 console.log(propertyValu);
@@ -47,13 +57,5 @@ console.log(computer.monitor);
    //  set value
 computer.monitor = 5;
 console.log(computer);
-
-computer["monitor"] = 7;
-console.log(computer);
-
-const propertyName1 ="pc_box";
-computer[propertyName1] = 5;
-console.log(computer);
-
 
 
